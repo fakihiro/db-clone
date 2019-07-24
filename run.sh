@@ -3,7 +3,7 @@
 #  Mysqlのデータベースをクローン
 #
 #  [使い方]
-#     ./run.sh [database name from] [database name to]
+#     ./run.sh [from database name] [to database name]
 ## =================================================================== ##
 
 function main() {(

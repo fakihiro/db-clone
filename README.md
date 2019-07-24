@@ -5,5 +5,5 @@ mysqlのDBをクローンするスクリプト
 ## Usage
 
 ```shell
-$ ./run.sh [database from] [database to]
+$ ./run.sh [from database name] [to database name]
 ```
