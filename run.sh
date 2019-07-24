@@ -3,7 +3,7 @@
 #  Mysqlのデータベースをクローン
 #
 #  [使い方]
-#     mysql-db-clone.sh [database name from] [database name to]
+#     ./run.sh [database name from] [database name to]
 ## =================================================================== ##
 
 function main() {(
@@ -32,7 +32,7 @@ function main() {(
 )}
 
 function _help() {(
-    echo "Usage: ./mysql-db-clone.sh [database name from] [database name to]"
+    echo "Usage: ./run.sh [database name from] [database name to]"
 )}
 
 function _check_database() {(
